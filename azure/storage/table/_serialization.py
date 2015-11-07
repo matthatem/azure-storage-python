@@ -138,6 +138,7 @@ _ENTITY_TO_PYTHON_CONVERSIONS = {
     'Edm.Double': float,
     'Edm.Boolean': _to_python_bool,
     'Edm.DateTime': _from_entity_datetime,
+    'Edm.String': str,
 }
 
 # Conversion from Python type to a function which returns a tuple of the
